@@ -1,0 +1,83 @@
+body {
+    font-family:Arial, sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 30px;
+}
+.container {
+    background-color: white;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+h1 {
+    text-align: center;
+    color:#2457a7;
+}
+p {
+    text-align: center;
+    color: #555;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+.input-area input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2457a7;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #163d7a;
+}
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f2f4f8;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+}
+li input[type="checkbox"] {
+    flex: none;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    cursor: pointer;
+}
+li span {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.delete-btn {
+    background-color: #dc3545;
+}
+.delete-btn:hover {
+    background-color: #a71d2a;
+}
+#clearBtn {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #dc3545;
+}
+#message {
+    color: red;
+}
